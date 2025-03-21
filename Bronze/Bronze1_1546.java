@@ -18,7 +18,5 @@ public class Bronze1_1546 {
 		double sum = score.stream().mapToInt(Integer::intValue).sum();
 		double newScore = sum/M*100;
 		System.out.println(newScore/N);
-
 	}
-
 }
